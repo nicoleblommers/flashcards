@@ -1,0 +1,27 @@
+h1 {
+    font-family: Arial;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+body {
+    background-color: rgb(247, 246, 234);
+}
+img {
+    width: 200px;
+    height: 125px;
+}
+div.cards {
+    background-color: bisque;
+    padding: 30px 30px 30px 30px;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  div.question {
+    padding: 10px;
+  }
+
+
