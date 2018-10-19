@@ -3,6 +3,14 @@ h1 {
     font-size: 35px;
     font-weight: bold;
     text-align: center;
+    color: rgb(107, 58, 58);
+    text-transform: uppercase;
+    text-shadow: 1px 1px grey;
+}
+p {
+    font-family: Arial;
+    font-size: 15px;
+
 }
 body {
     background-color: rgb(247, 246, 234);
@@ -19,7 +27,38 @@ div.cards {
     height: 200px;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: table-cell;
   }
+
+  div.cards2 {
+    background-color: rgb(196, 255, 216);
+    padding: 30px 30px 30px 30px;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: table-cell;
+  }
+
+ div.cards3 {
+    background-color: rgb(255, 196, 209);
+    padding: 30px 30px 30px 30px;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: table-cell;
+  }
+  .Row
+{
+    display: table;
+    width: 80%; 
+    table-layout: fixed; 
+    border-spacing: 10px;
+    margin: auto;
+}
   div.question {
     padding: 10px;
   }

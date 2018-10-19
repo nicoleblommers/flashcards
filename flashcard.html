@@ -1,19 +1,33 @@
 <html>
 <head>
-    <title>Een manier om je kennis op peil te houden! - Flashcards!</title>
-    <link rel="stylesheet" type="text/css" href="flashcard.css">
+   <title>Een manier om je kennis op peil te houden! - Flashcards!</title>
+   <link rel="stylesheet" type="text/css" href="flashcard.css">
+   <script src="flashcard.js"></script>
 </head>
 
 <body>
 <h1>Flashcard game!</h1>
-
-<div class="cards">
-    <img src="http://www.exploreandwander.com/wp-content/uploads/2018/09/amsterdam_hortus.jpg" alt="dit is een visual">
-    <div class="question">
-        <p>question</p>
-    </div>
+<div class="row">
+<div id="kaart1" onclick="draaiKaart()" class="cards">
+    <div className="question">
+       <p>question 1</p>
+   </div>
 </div>
 
-    </body>
+<div id="kaart2" onclick="draaiKaart()" class="cards2">
+         <div className="question">
+            <p>question 2</p>
+        </div>
+     </div>
 
-    </html>
+     <div id="kaart3" onclick="draaiKaart()" class="cards3">
+             <div className="question">
+                <p>question 3</p>
+            </div>
+         </div>
+
+</div>
+
+   </body>
+
+   </html>
